@@ -1,6 +1,6 @@
 # Dokku SSH Public Key Management Web Server
 
-Simple dokku key management server written in python tornado.
+Simple dokku key management server written in python tornado.  
 If you need to add ssh keys of some users for your dokku, this app may help you.
 
 ## Requirements
@@ -9,13 +9,15 @@ If you need to add ssh keys of some users for your dokku, this app may help you.
 
 ## Installing Dokku
 
-See [dokku](https://github.com/progrium/dokku) or [dokku-alt](https://github.com/dokku-alt).
+See [dokku](https://github.com/progrium/dokku) or [dokku-alt](https://github.com/dokku-alt).  
 Run the following commands on your dokku host to install dokku.
 
-* dokku
+### dokku
+
     $ wget -qO- https://raw.github.com/progrium/dokku/master/bootstrap.sh | sudo bash
 
-* dokku-alt
+### dokku-alt
+
     $ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/dokku-alt/dokku-alt/master/bootstrap.sh)"
 
 ## Set your first key
