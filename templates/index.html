@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dokku ssh key server</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <h1>Dokku ssh key server</h1>
+    <form method="POST" action="/register">
+      <p>
+        <label>username:</label><br>
+        <input id="user" name="user" type="text"></input>
+      </p>
+      <p>
+        <label>ssh key:</label><br>
+        <textarea id="key" name="key" cols="40" rows="6"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="add" />
+      </p>
+    </form>
+    <a href="/keys">registered ssh keys</a>
+  </body>
+</html>
